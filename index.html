@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams</title>
+    <meta name="description" content="Site for travel agency">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="/vendor/lite-yt-embed/lite-yt-embed.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__inner">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__top-left">
+                        <ul class="header__social">
+                            <li class="header__social-list">
+                                <a class="header__social-link" href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="header__social-list">
+                                <a class="header__social-link" href="#">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li class="header__social-list">
+                                <a class="header__social-link" href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="header__social-list">
+                                <a class="header__social-link" href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="header__social-list">
+                                <a class="header__social-link" href="#">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__top-right">
+                        <div class="header__location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="header__location-adress">
+                                1835 73rd Ave NE, Medina, Washington, USA.
+                            </div>
+                        </div>
+                        <div class="header__registration">
+                            <a class="header__registration-login" href="#">
+                                Login
+                            </a>
+                            <div class="header__devider"></div>
+                            <a class="header__registration-register" href="#">
+                                register
+                            </a>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="header__nav-menu">
+                                <li class="header__nav-list">
+                                    <a class="header__nav-link" href="#">Home</a>
+                                </li>
+                                <li class="header__nav-list">
+                                    <a class="header__nav-link" href="#">tours</a>
+                                </li>
+                                <li class="header__nav-list">
+                                    <a class="header__nav-link" href="#">package</a>
+                                </li>
+                                <li class="header__nav-list">
+                                    <a class="header__nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="header__nav-list">
+                                    <a class="header__nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="header__logo">
+                        <a class="header__logo-link" href="#">
+                            <img class="header__logo-img" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__nav-menu">
+                            <li class="header__nav-list">
+                                <a class="header__nav-link" href="#">Home</a>
+                            </li>
+                            <li class="header__nav-list">
+                                <a class="header__nav-link" href="#">tours</a>
+                            </li>
+                            <li class="header__nav-list">
+                                <a class="header__nav-link" href="#">package</a>
+                            </li>
+                            <li class="header__nav-list">
+                                <a class="header__nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="header__nav-list">
+                                <a class="header__nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <a class="hero__tel" href="tel:+91254587485" aria-label="call us on this number">+91 254 587
+                        485</a>
+                    <h1 class="hero__title">Book a Ticket & Just Leave!</h1>
+                    <p class="hero__text">
+                        Travel is the movement of people between relatively distant geographical locations, and can
+                        involve travel by foot,bicycle, automobile, train, boat, bus.
+                    </p>
+                    <div class="hero__btn-block">
+                        <a class="hero__btn">
+                            <i class="fa-solid fa-right-long btn-1__icon"></i>
+                            Get ticket
+                        </a>
+                    </div>
+                </div>
+                <!-- Booking Widget -->
+                <div class="booking-widget">
+                    <!-- Табы -->
+                    <div class="booking-widget__tabs">
+                        <div class="booking-widget__tabs-stripe"></div>
+                        <button class="booking-tab booking-tab--active" data-tab="hotel">hotel</button>
+                        <button class="booking-tab" data-tab="tours">tours</button>
+                        <button class="booking-tab" data-tab="package">package</button>
+                    </div>
+                    <!-- Форма -->
+                    <div class="booking-widget__content">
+                        <form class="booking-form booking-form--active" data-form="hotel">
+                            <div class="booking-form__form-stripe"></div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">where?</label>
+                                <input class="booking-form__input" type="text" placeholder="Choose location">
+                            </div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">which?</label>
+                                <input class="booking-form__input" type="text" placeholder="Choose City">
+                            </div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">Check in</label>
+                                <input class="booking-form__input" type="text" placeholder="YY-DD-MM">
+                            </div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">Check out</label>
+                                <input class="booking-form__input" type="text" placeholder="YY-DD-MM">
+                            </div>
+                            <button class="booking-form__submit" type="submit">
+                                Search
+                            </button>
+                        </form>
+                        <form class="booking-form" data-form="tours">
+                            <div class="booking-form__form-stripe"></div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">where?</label>
+                                <input class="booking-form__input" type="text" placeholder="Choose location">
+                            </div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">which?</label>
+                                <input class="booking-form__input" type="text" placeholder="Choose City">
+                            </div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">from</label>
+                                <input class="booking-form__input" type="text" placeholder="YY-DD-MM">
+                            </div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">to</label>
+                                <input class="booking-form__input" type="text" placeholder="YY-DD-MM">
+                            </div>
+                            <button class="booking-form__submit" type="submit">
+                                Search
+                            </button>
+                        </form>
+                        <form class="booking-form" data-form="package">
+                            <div class="booking-form__form-stripe"></div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">where?</label>
+                                <input class="booking-form__input" type="text" placeholder="Choose location">
+                            </div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">which?</label>
+                                <input class="booking-form__input" type="text" placeholder="Choose City">
+                            </div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">Check in</label>
+                                <input class="booking-form__input" type="text" placeholder="YY-DD-MM">
+                            </div>
+                            <div class="booking-form__group">
+                                <label class="booking-form__label">Check out</label>
+                                <input class="booking-form__input" type="text" placeholder="YY-DD-MM">
+                            </div>
+                            <button class="booking-form__submit" type="submit">
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="places">
+            <div class="container">
+                <h3 class="places__subtitle">
+                    Popular Tour Packages
+                </h3>
+                <h2 class="places__title section-title">
+                    Populer place
+                </h2>
+                <div class="places__slider">
+                    <div class="places__slider-item">
+                        <div class="places__slider-img-wrapper">
+                            <img class="places__slider-img" src="img/slider-river.webp" alt="photo">
+                        </div>
+                        <div class="slider__info">
+                            <div class="slider__price">
+                                $500 3 days 2 night
+                            </div>
+                            <div class="slider__name">
+                                Mancity, England
+                            </div>
+                        </div>
+                        <a class="slider__btn" href="#">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="places__slider-item">
+                        <div class="places__slider-img-wrapper">
+                            <img class="places__slider-img" src="img/slider-gate.webp" alt="photo">
+                        </div>
+                        <div class="slider__info">
+                            <div class="slider__price">
+                                $700 4 days 3 night
+                            </div>
+                            <div class="slider__name">
+                                Mancity, England
+                            </div>
+                        </div>
+                        <a class="slider__btn" href="#">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="places__slider-item">
+                        <div class="places__slider-img-wrapper">
+                            <img class="places__slider-img" src="img/slider-lake.webp" alt="photo">
+                        </div>
+                        <div class="slider__info">
+                            <div class="slider__price">
+                                $2500 7 days 6 night
+                            </div>
+                            <div class="slider__name">
+                                Mancity, England
+                            </div>
+                        </div>
+                        <a class="slider__btn" href="#">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="places__slider-item">
+                        <div class="places__slider-img-wrapper">
+                            <img class="places__slider-img" src="img/slider-river.webp" alt="photo">
+                        </div>
+                        <div class="slider__info">
+                            <div class="slider__price">
+                                $1500 3 days 2 night
+                            </div>
+                            <div class="slider__name">
+                                Mancity, England
+                            </div>
+                        </div>
+                        <a class="slider__btn" href="#">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="places__slider-item">
+                        <div class="places__slider-img-wrapper">
+                            <img class="places__slider-img" src="img/slider-gate.webp" alt="photo">
+                        </div>
+                        <div class="slider__info">
+                            <div class="slider__price">
+                                $2000 4 days 3 night
+                            </div>
+                            <div class="slider__name">
+                                Mancity, England
+                            </div>
+                        </div>
+                        <a class="slider__btn" href="#">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="places__slider-item">
+                        <div class="places__slider-img-wrapper">
+                            <img class="places__slider-img" src="img/slider-lake.webp" alt="photo">
+                        </div>
+                        <div class="slider__info">
+                            <div class="slider__price">
+                                $4000 7 days 6 night
+                            </div>
+                            <div class="slider__name">
+                                Mancity, England
+                            </div>
+                        </div>
+                        <a class="slider__btn" href="#">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="places__slider-item">
+                        <div class="places__slider-img-wrapper">
+                            <img class="places__slider-img" src="img/slider-river.webp" alt="photo">
+                        </div>
+                        <div class="slider__info">
+                            <div class="slider__price">
+                                $400 1 days 1 night
+                            </div>
+                            <div class="slider__name">
+                                Mancity, England
+                            </div>
+                        </div>
+                        <a class="slider__btn" href="#">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="places__slider-item">
+                        <div class="places__slider-img-wrapper">
+                            <img class="places__slider-img" src="img/slider-gate.webp" alt="photo">
+                        </div>
+                        <div class="slider__info">
+                            <div class="slider__price">
+                                $700 2 days 2 night
+                            </div>
+                            <div class="slider__name">
+                                Mancity, England
+                            </div>
+                        </div>
+                        <a class="slider__btn" href="#">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="places__slider-item">
+                        <div class="places__slider-img-wrapper">
+                            <img class="places__slider-img" src="img/slider-lake.webp" alt="photo">
+                        </div>
+                        <div class="slider__info">
+                            <div class="slider__price">
+                                $3500 5 days 4 night
+                            </div>
+                            <div class="slider__name">
+                                Mancity, England
+                            </div>
+                        </div>
+                        <a class="slider__btn" href="#">
+                            <i class="fa-solid fa-circle-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="places__title-2 section-title">
+                    Most Popular Travel Destinations
+                </h2>
+                <p class="places__text section-text">
+                    Love travel? Plan and book your perfect trip with expert advice, travel tips, destination
+                    information and inspiration from Lonely Planet
+                </p>
+            </div>
+            <div class="places__big-slider">
+                <div class="places__big-slider-item">
+                    <div class="places__big-slider-img-wrapper">
+                        <img class="big-slider__img" src="img/norway.webp" alt="big slider">
+                    </div>
+                    <div class="big-slider__plate">
+                        <h3 class="big-slider__name">
+                            Grand Switzerland
+                        </h3>
+                        <ul class="big-slider__list">
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-comment"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-video"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="places__big-slider-item">
+                    <div class="places__big-slider-img-wrapper">
+                        <img class="big-slider__img" src="img/norway.webp" alt="big slider">
+                    </div>
+                    <div class="big-slider__plate">
+                        <h3 class="big-slider__name">
+                            Grand Switzerland
+                        </h3>
+                        <ul class="big-slider__list">
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-comment"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-video"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="places__big-slider-item">
+                    <div class="places__big-slider-img-wrapper">
+                        <img class="big-slider__img" src="img/norway.webp" alt="big slider">
+                    </div>
+                    <div class="big-slider__plate">
+                        <h3 class="big-slider__name">
+                            Grand Switzerland
+                        </h3>
+                        <ul class="big-slider__list">
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-comment"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                            </li>
+                            <li class="big-slider__item">
+                                <a class="big-slider__link" href="#">
+                                    <i class="fa-solid fa-video"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="honeymoon">
+            <div class="container">
+                <h2 class="honeymoon__title section-title">
+                    Destinations for Honeymoon
+                </h2>
+                <p class="honeymoon__text section-text">
+                    Love travel? Plan and book your perfect trip with expert advice, travel tips, destination
+                    information
+                    and inspiration from Lonely Planet
+                </p>
+            </div>
+            <div class="honeymoon__slider">
+                <div class="honeymoon__slide">
+                    <div class="honeymoon__slider-item">
+                        <div class="honeymoon__slider-img-wrapper">
+                            <img class="honeymoon__slider-img" src="img/honeymoon-1.webp" alt="honeymoon slider img">
+                            <div class="honeymoon__slider-social">
+                                <a href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="honeymoon__slider-content">
+                            <div class="honeymoon__slider-name">
+                                Switzerland
+                            </div>
+                            <div class="honeymoon__slider-price">
+                                $560
+                            </div>
+                            <div class="honeymoon__slider-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="honeymoon__slider-time-text">
+                                    2 days 2night
+                                </span>
+                            </div>
+                            <p class="honeymoon__slider-text">
+                                There are a few very, very fine strands of PLA
+                            </p>
+                            <div class="stars" style="--rating: 4;">
+                                <span>★★★★★</span>
+                            </div>
+                            <a class="honeymoon__slider-more" href="">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="honeymoon__slide">
+                    <div class="honeymoon__slider-item">
+                        <div class="honeymoon__slider-img-wrapper">
+                            <img class="honeymoon__slider-img" src="img/honeymoon-2.webp" alt="honeymoon slider img">
+                            <div class="honeymoon__slider-social">
+                                <a href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="honeymoon__slider-content">
+                            <div class="honeymoon__slider-name">
+                                Switzerland
+                            </div>
+                            <div class="honeymoon__slider-price">
+                                $560
+                            </div>
+                            <div class="honeymoon__slider-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="honeymoon__slider-time-text">
+                                    2 days 2night
+                                </span>
+                            </div>
+                            <p class="honeymoon__slider-text">
+                                There are a few very, very fine strands of PLA
+                            </p>
+                            <div class="stars" style="--rating: 4;">
+                                <span>★★★★★</span>
+                            </div>
+                            <a class="honeymoon__slider-more" href="">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="honeymoon__slide">
+                    <div class="honeymoon__slider-item">
+                        <div class="honeymoon__slider-img-wrapper">
+                            <img class="honeymoon__slider-img" src="img/honeymoon-3.webp" alt="honeymoon slider img">
+                            <div class="honeymoon__slider-social">
+                                <a href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="honeymoon__slider-content">
+                            <div class="honeymoon__slider-name">
+                                Switzerland
+                            </div>
+                            <div class="honeymoon__slider-price">
+                                $560
+                            </div>
+                            <div class="honeymoon__slider-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="honeymoon__slider-time-text">
+                                    2 days 2night
+                                </span>
+                            </div>
+                            <p class="honeymoon__slider-text">
+                                There are a few very, very fine strands of PLA
+                            </p>
+                            <div class="stars" style="--rating: 4;">
+                                <span>★★★★★</span>
+                            </div>
+                            <a class="honeymoon__slider-more" href="">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="honeymoon__slide">
+                    <div class="honeymoon__slider-item">
+                        <div class="honeymoon__slider-img-wrapper">
+                            <img class="honeymoon__slider-img" src="img/honeymoon-1.webp" alt="honeymoon slider img">
+                            <div class="honeymoon__slider-social">
+                                <a href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="honeymoon__slider-content">
+                            <div class="honeymoon__slider-name">
+                                Switzerland
+                            </div>
+                            <div class="honeymoon__slider-price">
+                                $560
+                            </div>
+                            <div class="honeymoon__slider-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="honeymoon__slider-time-text">
+                                    2 days 2night
+                                </span>
+                            </div>
+                            <p class="honeymoon__slider-text">
+                                There are a few very, very fine strands of PLA
+                            </p>
+                            <div class="stars" style="--rating: 4;">
+                                <span>★★★★★</span>
+                            </div>
+                            <a class="honeymoon__slider-more" href="">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="honeymoon__slide">
+                    <div class="honeymoon__slider-item">
+                        <div class="honeymoon__slider-img-wrapper">
+                            <img class="honeymoon__slider-img" src="img/honeymoon-2.webp" alt="honeymoon slider img">
+                            <div class="honeymoon__slider-social">
+                                <a href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="honeymoon__slider-content">
+                            <div class="honeymoon__slider-name">
+                                Switzerland
+                            </div>
+                            <div class="honeymoon__slider-price">
+                                $560
+                            </div>
+                            <div class="honeymoon__slider-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="honeymoon__slider-time-text">
+                                    2 days 2night
+                                </span>
+                            </div>
+                            <p class="honeymoon__slider-text">
+                                There are a few very, very fine strands of PLA
+                            </p>
+                            <div class="stars" style="--rating: 4;">
+                                <span>★★★★★</span>
+                            </div>
+                            <a class="honeymoon__slider-more" href="">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="honeymoon__slide">
+                    <div class="honeymoon__slider-item">
+                        <div class="honeymoon__slider-img-wrapper">
+                            <img class="honeymoon__slider-img" src="img/honeymoon-3.webp" alt="honeymoon slider img">
+                            <div class="honeymoon__slider-social">
+                                <a href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="honeymoon__slider-content">
+                            <div class="honeymoon__slider-name">
+                                Switzerland
+                            </div>
+                            <div class="honeymoon__slider-price">
+                                $560
+                            </div>
+                            <div class="honeymoon__slider-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="honeymoon__slider-time-text">
+                                    2 days 2night
+                                </span>
+                            </div>
+                            <p class="honeymoon__slider-text">
+                                There are a few very, very fine strands of PLA
+                            </p>
+                            <div class="stars" style="--rating: 4;">
+                                <span>★★★★★</span>
+                            </div>
+                            <a class="honeymoon__slider-more" href="">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="honeymoon__slide">
+                    <div class="honeymoon__slider-item">
+                        <div class="honeymoon__slider-img-wrapper">
+                            <img class="honeymoon__slider-img" src="img/honeymoon-1.webp" alt="honeymoon slider img">
+                            <div class="honeymoon__slider-social">
+                                <a href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="honeymoon__slider-content">
+                            <div class="honeymoon__slider-name">
+                                Switzerland
+                            </div>
+                            <div class="honeymoon__slider-price">
+                                $560
+                            </div>
+                            <div class="honeymoon__slider-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="honeymoon__slider-time-text">
+                                    2 days 2night
+                                </span>
+                            </div>
+                            <p class="honeymoon__slider-text">
+                                There are a few very, very fine strands of PLA
+                            </p>
+                            <div class="stars" style="--rating: 4;">
+                                <span>★★★★★</span>
+                            </div>
+                            <a class="honeymoon__slider-more" href="">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="honeymoon__slide">
+                    <div class="honeymoon__slider-item">
+                        <div class="honeymoon__slider-img-wrapper">
+                            <img class="honeymoon__slider-img" src="img/honeymoon-2.webp" alt="honeymoon slider img">
+                            <div class="honeymoon__slider-social">
+                                <a href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="honeymoon__slider-content">
+                            <div class="honeymoon__slider-name">
+                                Switzerland
+                            </div>
+                            <div class="honeymoon__slider-price">
+                                $560
+                            </div>
+                            <div class="honeymoon__slider-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="honeymoon__slider-time-text">
+                                    2 days 2night
+                                </span>
+                            </div>
+                            <p class="honeymoon__slider-text">
+                                There are a few very, very fine strands of PLA
+                            </p>
+                            <div class="stars" style="--rating: 4;">
+                                <span>★★★★★</span>
+                            </div>
+                            <a class="honeymoon__slider-more" href="">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="honeymoon__slide">
+                    <div class="honeymoon__slider-item">
+                        <div class="honeymoon__slider-img-wrapper">
+                            <img class="honeymoon__slider-img" src="img/honeymoon-3.webp" alt="honeymoon slider img">
+                            <div class="honeymoon__slider-social">
+                                <a href="#">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="honeymoon__slider-content">
+                            <div class="honeymoon__slider-name">
+                                Switzerland
+                            </div>
+                            <div class="honeymoon__slider-price">
+                                $560
+                            </div>
+                            <div class="honeymoon__slider-time">
+                                <i class="fa-regular fa-clock"></i>
+                                <span class="honeymoon__slider-time-text">
+                                    2 days 2night
+                                </span>
+                            </div>
+                            <p class="honeymoon__slider-text">
+                                There are a few very, very fine strands of PLA
+                            </p>
+                            <div class="stars" style="--rating: 4;">
+                                <span>★★★★★</span>
+                            </div>
+                            <a class="honeymoon__slider-more" href="">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="holiday">
+            <div class="container">
+                <div class="holiday__wrapper">
+                    <div class="holiday__content">
+                        <div class="holiday__content-discont">
+                            <span class="holiday__content-percent">
+                                50
+                            </span>
+                            OFF Discount 10-30% Off
+                        </div>
+                        <h2 class="holiday__content-title section-title">
+                            Best Holiday Packages
+                        </h2>
+                        <p class="holiday__content-text section-text">
+                            Find your ideal holiday package whether you're travelling in Australia or around the
+                            World.
+                            Book Flights & Accommodation packages in one place with Escape Travel.
+                        </p>
+                        <a class="holiday__content-btn" href="#">
+                            read more
+                        </a>
+                    </div>
+                    <div class="holiday__image">
+                        <img class="holiday__image-img" src="img/holiday-img.webp" alt="holiday photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="discount">
+            <div class="container">
+                <h2 class="discount__title section-title">
+                    30% Discount, stock limited
+                </h2>
+                <p class="discount__text">
+                    The world's largest student and youth travel agency. Find cheap flights, tours, Spring Break
+                    packages and exclusive travel deals for studentsTake full advantage of privileged discount rates.
+                </p>
+                <div class="discount__btn-block">
+                    <a class="discount__btn">
+                        <i class="fa-solid fa-right-long btn-1__icon"></i>
+                        Get ticket
+                    </a>
+                </div>
+                <div class="discount__countdown">
+                    <div class="countdown">
+                        <div class="countdown__item">
+                            <div class="countdown__number-days">23</div>
+                            <div class="countdown__label">Days</div>
+                        </div>
+
+                        <div class="countdown__item">
+                            <div class="countdown__number-hours">30</div>
+                            <div class="countdown__label">Hours</div>
+                        </div>
+
+                        <div class="countdown__item">
+                            <div class="countdown__number-minutes">27</div>
+                            <div class="countdown__label">Minutes</div>
+                        </div>
+
+                        <div class="countdown__item">
+                            <div class="countdown__number-seconds">56</div>
+                            <div class="countdown__label">Seconds</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="discount__slider">
+                    <div class="discount__slide">
+                        <div class="discount__item">
+                            <div class="discount__slide-image">
+                                <img class="discount__slide-img" src="img/slider-river.webp"
+                                    alt="discount slider photo">
+                            </div>
+                            <div class="discount__slide-content">
+                                <div class="discount__slide-description">
+                                    <h3 class="discount__slide-title">Italy (Rome)</h3>
+                                    <ul class="discount__slide-list">
+                                        <li class="discount__list-item">3 Days 2 Night</li>
+                                        <li class="discount__list-item">Visit most 4 populer place</li>
+                                    </ul>
+                                    <span class="discount__slide-price">$1500</span>
+                                </div>
+                            </div>
+                            <a class="discount__slide-btn" href="#">
+                                <i class="fa-solid fa-up-long"></i>
+                                Get ticket
+                            </a>
+                        </div>
+                    </div>
+                    <div class="discount__slide">
+                        <div class="discount__item">
+                            <div class="discount__slide-image">
+                                <img class="discount__slide-img" src="img/slider-river.webp"
+                                    alt="discount slider photo">
+                            </div>
+                            <div class="discount__slide-content">
+                                <div class="discount__slide-description">
+                                    <h3 class="discount__slide-title">Italy (Rome)</h3>
+                                    <ul class="discount__slide-list">
+                                        <li class="discount__list-item">3 Days 2 Night</li>
+                                        <li class="discount__list-item">Visit most 4 populer place</li>
+                                    </ul>
+                                    <span class="discount__slide-price">$1500</span>
+                                </div>
+                            </div>
+                            <a class="discount__slide-btn" href="#">
+                                <i class="fa-solid fa-up-long"></i>
+                                Get ticket
+                            </a>
+                        </div>
+                    </div>
+                    <div class="discount__slide">
+                        <div class="discount__item">
+                            <div class="discount__slide-image">
+                                <img class="discount__slide-img" src="img/slider-river.webp"
+                                    alt="discount slider photo">
+                            </div>
+                            <div class="discount__slide-content">
+                                <div class="discount__slide-description">
+                                    <h3 class="discount__slide-title">Italy (Rome)</h3>
+                                    <ul class="discount__slide-list">
+                                        <li class="discount__list-item">3 Days 2 Night</li>
+                                        <li class="discount__list-item">Visit most 4 populer place</li>
+                                    </ul>
+                                    <span class="discount__slide-price">$1500</span>
+                                </div>
+                            </div>
+                            <a class="discount__slide-btn" href="#">
+                                <i class="fa-solid fa-up-long"></i>
+                                Get ticket
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                <div class="subscribe__item">
+                    <h2 class="subscribe__title">
+                        It’s a big deal!
+                    </h2>
+                    <h3 class="subscribe__subtitle">
+                        subscribe our news letter
+                    </h3>
+                    <label class="subscribe__label">
+                        <input class="subscribe__input" type="text" placeholder="Enter your email">
+                        <button class="subscribe__btn" type="submit">Submit</button>
+                    </label>
+                </div>
+                <div class="subscribe__video">
+                    <lite-youtube
+                        videoid="KPXmZ6bLo5w"
+                        poster="img/instagram-hero.webp"
+                        params="rel=0&modestbranding=1&iv_load_policy=3">
+                        <a class="lty-playbtn" href="https://youtu.be/KPXmZ6bLo5w">
+                            <span class="visually-hidden"></span>
+                        </a>
+                    </lite-youtube>
+                </div>
+            </div>
+        </section>
+        <section class="comments">
+            <div class="container">
+                <div class="comments__items">
+                    <div class="comments__item">
+                        <img class="comments__img" src="img/comments-1.webp" alt="comments photo">
+                        <div class="comments__content">
+                            <div class="comments__data">
+                                <span class="comments__data-date">
+                                    29 February
+                                </span>
+                                <span class="comments__data-author">
+                                    by admin
+                                </span>
+                            </div>
+                            <h3 class="comments__title">
+                                Here's how to get the most out
+                                of a Liverpool city!
+                            </h3>
+                            <p class="comments__text">
+                                Travel is the movement of people between relatively distant geographical locations, and
+                                can
+                                involve travel by foot.
+                            </p>
+                            <ul class="comments__list">
+                                <li class="comments__links" class="comments__buttons">
+                                    <a href="#"><i class="fa-regular fa-comment"></i></a>
+                                </li>
+                                <li class="comments__links" class="comments__buttons">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </li>
+                                <li class="comments__links" class="comments__buttons">
+                                    <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="comments__item">
+                        <img class="comments__img" src="img/comments-2.webp" alt="comments photo">
+                        <div class="comments__content">
+                            <div class="comments__data">
+                                <span class="comments__data-date">
+                                    29 February
+                                </span>
+                                <span class="comments__data-author">
+                                    by admin
+                                </span>
+                            </div>
+                            <h3 class="comments__title">
+                                Why Travel is Important If you've
+                                grown up with all the comforts ?
+                            </h3>
+                            <p class="comments__text">
+                                Travel is the movement of people between relatively distant geographical locations, and
+                                can
+                                involve travel by foot.
+                            </p>
+                            <ul class="comments__list">
+                                <li class="comments__links" class="comments__buttons">
+                                    <a href="#"><i class="fa-regular fa-comment"></i></a>
+                                </li>
+                                <li class="comments__links" class="comments__buttons">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </li>
+                                <li class="comments__links" class="comments__buttons">
+                                    <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="comments__item">
+                        <img class="comments__img" src="img/comments-3.webp" alt="comments photo">
+                        <div class="comments__content">
+                            <div class="comments__data">
+                                <span class="comments__data-date">
+                                    29 February
+                                </span>
+                                <span class="comments__data-author">
+                                    by admin
+                                </span>
+                            </div>
+                            <h3 class="comments__title">
+                                Travelling, for me, is same as
+                                reading books.
+                            </h3>
+                            <p class="comments__text">
+                                Travel is the movement of people between relatively distant geographical locations, and
+                                can
+                                involve travel by foot.
+                            </p>
+                            <ul class="comments__list">
+                                <li class="comments__links" class="comments__buttons">
+                                    <a href="#"><i class="fa-regular fa-comment"></i></a>
+                                </li>
+                                <li class="comments__links" class="comments__buttons">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </li>
+                                <li class="comments__links" class="comments__buttons">
+                                    <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__top-items">
+                    <div class="footer__top-contacts">
+                        <a class="footer__logo" href="#">
+                            <img src="img/footer-logo.png" alt="footer logo">
+                        </a>
+                        <ul class="footer__contacts-list">
+                            <li class="footer__contacts-links">
+                                <a class="footer__phone" href="tel:+91254541254">Phone: +91 254 541 254</a>
+                            </li>
+                            <li class="footer__contacts-links">
+                                <a class="footer__fax" href="tel:+441619998888">Fax : +44 161 999 8888</a>
+                            </li>
+                            <li class="footer__contacts-links">
+                                <a class="footer__mail" href="mailto:dreamland@dream.com">Email: dreamland@dream.com</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__top-list">
+                            <li class="footer__top-links">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="footer__top-links">
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </li>
+                            <li class="footer__top-links">
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="footer__top-links">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="footer__top-links">
+                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__top-support">
+                        <h3 class="footer__support">Support</h3>
+                        <div class="footer__support-devider footer__devider"></div>
+                        <ul class="footer__support-list">
+                            <li class="footer__support-links">
+                                <a href="#">Email Contact</a>
+                            </li>
+                            <li class="footer__support-links">
+                                <a href="#">Help Center</a>
+                            </li>
+                            <li class="footer__support-links">
+                                <a href="#">Live chat</a>
+                            </li>
+                            <li class="footer__support-links">
+                                <a href="#">Our Community</a>
+                            </li>
+                            <li class="footer__support-links">
+                                <a href="#">Services Status</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__top-location">
+                        <h3 class="footer__location">Location</h3>
+                        <div class="footer__location-devider footer__devider"></div>
+                        <ul class="footer__location-list">
+                            <li class="footer__location-links">
+                                <a href="#">London</a>
+                            </li>
+                            <li class="footer__location-links">
+                                <a href="#">Canada</a>
+                            </li>
+                            <li class="footer__location-links">
+                                <a href="#">America</a>
+                            </li>
+                            <li class="footer__location-links">
+                                <a href="#">India</a>
+                            </li>
+                            <li class="footer__location-links">
+                                <a href="#">Australia</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__top-menu">
+                        <h3 class="footer__menu">Menu</h3>
+                        <div class="footer__menu-devider footer__devider"></div>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-links">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="footer__menu-links">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="footer__menu-links">
+                                <a href="#">Tours</a>
+                            </li>
+                            <li class="footer__menu-links">
+                                <a href="#">Packages</a>
+                            </li>
+                            <li class="footer__menu-links">
+                                <a href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-copyriting">
+                    <i class="fa-regular fa-copyright"></i>
+                    2018Roy Design. All Rights Reserved
+                </div>
+                <ul class="footer__bottom-list">
+                    <li class="footer__bottom-link">
+                        <a href="#">About Hoststar</a>
+                    </li>
+                    <li class="footer__bottom-link">
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="footer__bottom-link">
+                        <a href="#">Help Center</a>
+                    </li>
+                    <li class="footer__bottom-link">
+                        <a href="#">Terms</a>
+                    </li>
+                    <li class="footer__bottom-link">
+                        <a href="#">Site Map</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="/vendor/lite-yt-embed/lite-yt-embed.js" defer></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
